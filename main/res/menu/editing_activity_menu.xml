@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Save"
+        android:id="@+id/save"
+        android:icon="@drawable/ic_baseline_save_24"
+        app:showAsAction="always"/>
+    <item android:title="Delete"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        app:showAsAction="always"/>
+    <item android:title="Move to a different folder>"
+        android:id="@+id/moveFolders"
+        android:icon="@drawable/ic_baseline_drive_file_move_24"
+        app:showAsAction="always"/>
+    <item android:title="Discard Changes"
+        android:id="@+id/discardChanges"
+        android:icon="@drawable/ic_baseline_undo_24"
+        app:showAsAction="always"/>
+</menu>

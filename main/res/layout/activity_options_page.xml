@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsPage">
+
+    <Button
+        android:id="@+id/folderActionButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeFolders"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentFolderName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarOptions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/quizButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz Me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createFolderButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/scrollingButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Browse cards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizButton2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/createNewButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create New Card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollingButton2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/createFolderButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateFolder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folderActionButton2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/currentFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarOptions"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

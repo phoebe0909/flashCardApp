@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FlashCardApp</string>
+    <string name="textview">Question</string>
+    <string name="category">Category</string>
+    <string name="solution">Solution</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_changes">Save changes?</string>
+    <string name="confirm">Save</string>
+    <string name="discard">Discard Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="createNewDialog">Save changes before creating a new card?</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_navigation_drawer">navigationDrawer</string>
+    <string name="title_activity_editing">editingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="pencil">Edit</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search">Search</string>
+    <string name="create_new_card">Create New Card</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="Summary">Summary</string>
+    <string name="correct">Correct Answers: </string>
+    <string name="incorrect">Incorrect Answers: </string>
+    <string name="viewResults">View Results</string>
+    <string name="emptyDialog">Card is incomplete.</string>
+    <string name="editEmptyDialog">Continue Editing</string>
+    <string name="DeleteForever">Delete this card permanently?</string>
+    <string name="Delete">Delete</string>
+    <string name="move">Remove from Deck</string>
+    <string name="createFolderDialog">New Folder Name</string>
+    <string name="introductionToFolders">Welcome to the FlashCardApp!</string>
+    <string name="introPart2">To get started, create a new folder and fill it with flashcards, or check out our sample folder.</string>
+    <string name="alternativeIntroPart2">Select a folder to begin.</string>
+    <string name="CreateFolder">Create a new folder</string>
+    <string name="ChangeFolders">Change folders</string>
+    <string name="Sample">Sample Folder</string>
+    <string name="editingInstructions">CARD EDITOR</string>
+    <string name="MoveDialog">Move card to a different folder?</string>
+
+</resources>
