@@ -31,9 +31,12 @@ Users will be able to upload spreadsheets or export their flashcards as spreadsh
 
 
 ## Skip ahead to the good stuff:   
-If you'd like to take a look at my code without having to dig through a lot of folders, start here. MainActivity is helpful for 
-understanding the project overall:
+If you'd like to take a look at my code without having to dig through a lot of folders, Main Activity is the best place to start:
+https://github.com/phoebe0909/flashCardApp/blob/main/main/java/weiss/kotlin/flashcardapp/MainActivity.kt
+
+Or visit here to see all of the Activities:
 https://github.com/phoebe0909/flashCardApp/tree/main/main/java/weiss/kotlin/flashcardapp
+
 
 
 ## License
