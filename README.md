@@ -16,12 +16,16 @@ an opportunity to dig into the Android documentation and learn new skills. As I 
 continue to return to this app and improve it.
 
 ## Some of the new techniques that I learned from this project: 
-Creating animations, toolbars and menu items. Finding Context in any context. Building with recyclerView and other new 
-layout options.
+Creating animations, toolbars and menu items. 
+
+Finding Context in any context. 
+
+Building with recyclerView and other layout options.
 
 
 ## Upcoming goals for the project:   
 Data is currently stored in system preferences, but as I continue to learn more about Android, I'll re-examine the data storage options. 
+
 Users will be able to upload spreadsheets or export their flashcards as spreadsheets.
 
 
